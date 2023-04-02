@@ -6,6 +6,9 @@
 
 body {
     margin: 0px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 /* Header and Hero */
 .header-hero {
@@ -76,7 +79,32 @@ button.sign-up {
     color: #F9FAF8;
 }
 
-img {
+.hero-image {
     height: 250px;
     width: 500px;
+}
+
+.info-image {
+    height: 150px;
+    width: 150px;
+}
+
+.information-bar {
+    text-align: center;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.info {
+    max-width: 200px;
+    font-size: 18px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 30px;
 }
