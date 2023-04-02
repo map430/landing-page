@@ -8,7 +8,6 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column;
-    flex: 1;
 }
 /* Header and Hero */
 .header-hero {
@@ -56,6 +55,7 @@ a {
     background-color: #1f2937;
     height: 250px;
     width: 500px;
+    flex-shrink: 0;
 }
 
 .hero-main {
@@ -116,21 +116,23 @@ button {
 .quote-container {
     background: #E5E7EB;
     padding-bottom: 60px;
+    padding-top: 60px;
 }
 
 .quote {
     font-size: 36px;
     font-weight: thin;
     font-style: italic;
-    padding-left: 210px;
-    padding-right: 210px;
-    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    padding-left: 220px;
+    padding-right: 220px;
 }
 
 .author {
     font-weight: bold;
     text-align: end;
-    padding-right: 210px;
+    padding-right: 220px;
 }
 
 /* Button */
