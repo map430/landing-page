@@ -7,18 +7,19 @@
 body {
     margin: 0px;
 }
-
+/* Header and Hero */
 .header-hero {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
+    padding-left: 150px;
+    padding-right: 150px;
 }
+
 .header-container {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
-    padding-left: 150px;
-    padding-right: 150px;
 }
 
 ul {
@@ -42,10 +43,8 @@ a {
 
 .hero {
     display: flex;
-    justify-content: center;
-    gap: 40px;
-    padding-left: 150px;
-    padding-right: 150px;
+    justify-content: space-between;
+    gap: 10px;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -69,9 +68,12 @@ a {
 
 button.sign-up {
     background: #3882f6;
-    padding: 8px 16px;
+    padding: 8px 20px;
     border-radius: 8px;
-    border: 1px #3882f6
+    border: 1px #3882f6;
+    border: 0px;
+    margin-top: 10px;
+    color: #F9FAF8;
 }
 
 img {
