@@ -11,17 +11,19 @@ body {
 }
 /* Header and Hero */
 .header-hero {
-    display: flex;
-    flex-direction: column;
     background-color: #1f2937;
     padding-left: 150px;
     padding-right: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header-container {
     display: flex;
     justify-content: space-between;
-    background-color: #1f2937;
+    background-color: #;
+    width: 1040px;
 }
 
 ul {
@@ -45,8 +47,8 @@ a {
 
 .hero {
     display: flex;
-    justify-content: space-between;
-    gap: 10px;
+    justify-content: center;
+    gap: 40px;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -89,6 +91,7 @@ button {
 .info-image {
     height: 150px;
     width: 150px;
+    border-radius: 8px;
 }
 
 .information-bar {
@@ -117,22 +120,25 @@ button {
     background: #E5E7EB;
     padding-bottom: 60px;
     padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 220px;
+    padding-right: 220px;
 }
 
 .quote {
     font-size: 36px;
     font-weight: thin;
     font-style: italic;
-    display: flex;
-    justify-content: center;
-    padding-left: 220px;
-    padding-right: 220px;
+    width: 780px;
 }
 
 .author {
     font-weight: bold;
-    text-align: end;
-    padding-right: 220px;
+    display: flex;
+    justify-content: flex-end;
+    width: 720px;
 }
 
 /* Button */
@@ -156,6 +162,7 @@ button {
 .left-title {
     font-size: 18px;
     font-weight: bold;
+    padding-bottom: 5px;
 }
 
 .left-body {
